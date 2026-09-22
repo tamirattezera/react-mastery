@@ -7,10 +7,20 @@ function Header() {
   );
 }
 
+function Main() {
+  return (
+    <main>
+      <h2>Dashboard Overview</h2>
+      <p>Your system activity will appear here.</p>
+    </main>
+  );
+}
+
 function App() {
   return (
     <div>
       <Header />
+      <Main />
     </div>
   );
 }
