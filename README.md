@@ -1,9 +1,8 @@
-### Milestone — First Component Composition
+### Milestone — Component Composition
 
-Implemented the first React component boundary:
+Expanded the application into multiple meaningful UI responsibilities:
 
 ```text
 App
-└── Header
-    ├── h1
-    └── p
+├── Header
+└── Main
